@@ -37,7 +37,12 @@
     <span class="separator">⟡</span>
     <button onclick="window.location.href='https://seederda-faucet.vercel.app/'">Faucet</button>
     <span class="separator">⟡</span>
-    <button onclick="window.location.href='https://network-settings.vercel.app/'">Network Settings</button>
+    <select onchange="window.location.href=this.value;">
+    <option value="">My Rollap Status</option>
+    <option value="https://rollapp.0xseeder.xyz/status">RPC Status</option>
+    <option value="https://rollapp.0xseeder.xyz/rest">Rest Status</option>
+
+</select>
     <span class="separator">⟡</span>
 </div>
 
